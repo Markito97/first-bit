@@ -18,7 +18,7 @@ export const ControlValue = (): JSX.Element => {
     const { currentValue, minValue, maxValue } = data.value;
     const checkRange = currentValue < minValue || currentValue > maxValue;
     const isDeviation = TARGET_VALUE - currentValue;
-    let deviationId: number;
+    let deviationId: NodeJS.Timeout;
 
     if (isDeviation > DEVIATION) {
       setTargetValueChanges(true);
