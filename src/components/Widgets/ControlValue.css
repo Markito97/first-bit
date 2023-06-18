@@ -1,0 +1,70 @@
+.control-value-wrapper {
+  border-radius: 50%;
+  color: black;
+  overflow: hidden;
+  background: white;
+  width: 389px;
+  height: 389px;
+}
+
+.control-price {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 41px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #005fb8;
+}
+
+.control-value-wrapper-half {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background: white;
+  height: 290px;
+  width: 389px;
+}
+
+.second-half {
+  display: inline-flex;
+  background: #005fb8;
+  height: 99px;
+  width: 389px;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.control-price-count {
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 100px;
+  line-height: 117px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.control-price-helper-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 41px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}

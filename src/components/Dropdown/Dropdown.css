@@ -1,0 +1,26 @@
+.dropdown-wrapper {
+  position: absolute;
+  right: 20px;
+  top: 83px;
+  background: white;
+  width: 296px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid;
+  border-color: #005fb8;
+  border-radius: 20px;
+  height: 700px;
+}
+
+.dropdown-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.preview-widget-wrapper {
+  max-width: 252px;
+  display: flex;
+}
